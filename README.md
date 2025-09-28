@@ -1,4 +1,4 @@
-# Quiz de Causas Sociais - TCC
+# Quiz de Causas Sociais - TCC 💜
 
 Este quiz faz parte do projeto **EntreLaços**, uma plataforma que conecta voluntários a ONGs.  
 
