@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz - Entrelaços</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wgt@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="quiz-container">
+      <div class="quiz-box">
+        <h1>Qual causa mais combina com você?</h1>
+        <p>
+          Responda nosso quiz e descubra onde a sua ajuda pode fazer diferença
+        </p>
+
+        <div class="quiz-cards">
+          <div class="card">
+            <img src="img/rush.png" alt="Relógio" />
+            <h3>Rápido</h3>
+            <p>Apenas 6 perguntas para encontrar a sua causa ideal.</p>
+          </div>
+
+          <div class="card">
+            <img
+              src="img/personalized.png"
+              id="personalized-img"
+              alt="Anotação"
+            />
+            <h3>Personalizado</h3>
+            <p>Resultados baseados em seus interesses e habilidades.</p>
+          </div>
+
+          <div class="card">
+            <img src="img/practical.png" alt="Praticidade" />
+            <h3>Prático</h3>
+            <p>Ao final do quiz, indicamos ONGs que precisam do seu perfil.</p>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <a href="../../index.html"
+            ><button class="btn-cancelar">Cancelar</button></a
+          >
+          <a href="quiz.html"
+            ><button class="btn-iniciar">Iniciar Quiz</button></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- API de acessibilidade -->
+    <script
+      src="https://website-widgets.pages.dev/dist/sienna.min.js"
+      defer
+    ></script>
+
+    <!-- VLibras -->
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper></div>
+    </div>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
